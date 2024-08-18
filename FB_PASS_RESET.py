@@ -26,7 +26,7 @@ def reset_facebook_password(email, password_reset_code):
         return False
 
 if __name__ == "__main__":
-    email = input("Enter your Facebook email address: ")
+    email = input("yshaafy@gmail.com: ")
     password_reset_code = getpass("Enter your Facebook password reset code: ")
 
     success = reset_facebook_password(email, password_reset_code)
